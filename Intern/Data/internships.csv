@@ -1,0 +1,101 @@
+ID,Company,Role,Required_Skills,Qualification_Required,Location_State,Location_City,Sector,Duration_Months,Stipend_Range,Capacity
+1,Flipkart,Software Intern,"Python, Django, SQL",B.Com,Uttar Pradesh,Lucknow,IT,5,₹6k–₹37k,7
+2,Times of India,Accounting Intern,"Accounting, Excel, Auditing",BA,Madhya Pradesh,Indore,Commerce,3,₹28k–₹38k,17
+3,HDFC Bank,Social Work Intern,"Social Work, Community Outreach, Counselling",BBA,Maharashtra,Pune,Social Work,6,₹8k–₹32k,2
+4,Indian Railways,Video Editor,"Video Editing, Adobe Premiere Pro, After Effects",Diploma,Punjab,Chandigarh,Design,4,₹16k–₹38k,4
+5,OYO Rooms,Social Work Intern,"Social Work, Community Outreach, Counselling",B.Com,Bihar,Patna,Social Work,2,₹12k–₹40k,13
+6,Teach For India,Social Work Intern,"Social Work, Community Outreach, Counselling",BA,Punjab,Chandigarh,Social Work,4,₹27k–₹43k,19
+7,State Bank of India,Teaching Intern,"Teaching, Training, Counselling",Medical,Madhya Pradesh,Indore,Education,2,₹36k–₹50k,1
+8,Akshaya Patra Foundation,Social Work Intern,"Social Work, Community Outreach, Counselling",BA,Delhi,New Delhi,Social Work,1,₹16k–₹28k,15
+9,EY India,Teaching Intern,"Teaching, Training, Counselling",BA,Delhi,New Delhi,Education,2,₹14k–₹29k,9
+10,Paytm,Video Editor,"Video Editing, Adobe Premiere Pro, After Effects",M.Com,Delhi,New Delhi,Design,6,₹35k–₹29k,9
+11,Tech Mahindra,Business Development Intern,"Sales, Communication, Strategy",Law,Delhi,New Delhi,Marketing,2,₹25k–₹21k,8
+12,HDFC Bank,Copywriter,"Copywriting, Creativity, Market Research",MBA,Odisha,Bhubaneswar,Media,2,₹23k–₹22k,14
+13,OYO Rooms,Accounting Intern,"Accounting, Excel, Auditing",B.Tech,Punjab,Chandigarh,Commerce,3,₹23k–₹26k,19
+14,OYO Rooms,Data Analyst Intern,"SQL, Excel, Data Analysis",M.Com,Madhya Pradesh,Indore,IT,6,₹37k–₹38k,18
+15,ISRO,Copywriter,"Copywriting, Creativity, Market Research",B.Com,Assam,Guwahati,Media,3,₹17k–₹21k,8
+16,Infosys,Data Analyst Intern,"SQL, Excel, Data Analysis",BBA,Maharashtra,Pune,IT,5,₹41k–₹37k,17
+17,HDFC Bank,Finance Analyst Intern,"Financial Analysis, Excel, Business Strategy",M.Com,Rajasthan,Jaipur,Finance,6,₹18k–₹26k,18
+18,Deloitte India,Healthcare Assistant,"Nursing, Public Health, Lab Analysis",BA,West Bengal,Kolkata,Healthcare,4,₹14k–₹41k,19
+19,ISRO,Healthcare Assistant,"Nursing, Public Health, Lab Analysis",Medical,Punjab,Chandigarh,Healthcare,5,₹21k–₹47k,5
+20,Smile Foundation,UI/UX Intern,"UI/UX, Wireframing, Figma",BBA,Odisha,Bhubaneswar,Design,3,₹30k–₹48k,4
+21,KPMG,UI/UX Intern,"UI/UX, Wireframing, Figma",Law,Maharashtra,Pune,Design,3,₹36k–₹39k,13
+22,PwC India,Software Intern,"Python, Django, SQL",B.Sc,Assam,Guwahati,IT,4,₹12k–₹25k,1
+23,Ministry of Health,Policy Research Intern,"Policy Analysis, Research, Report Writing",BA,Kerala,Kochi,Government,4,₹26k–₹25k,3
+24,KPMG,Software Intern,"Python, Django, SQL",B.Com,Kerala,Kochi,IT,2,₹28k–₹49k,5
+25,Reliance Industries,Copywriter,"Copywriting, Creativity, Market Research",Diploma,Bihar,Patna,Media,3,₹40k–₹41k,2
+26,Times of India,Business Development Intern,"Sales, Communication, Strategy",M.Com,Maharashtra,Mumbai,Marketing,6,₹30k–₹23k,15
+27,OYO Rooms,Teaching Intern,"Teaching, Training, Counselling",B.Tech,Rajasthan,Jaipur,Education,3,₹16k–₹27k,19
+28,Indian Railways,Healthcare Assistant,"Nursing, Public Health, Lab Analysis",Medical,Uttar Pradesh,Lucknow,Healthcare,6,₹25k–₹36k,20
+29,ISRO,Social Work Intern,"Social Work, Community Outreach, Counselling",Diploma,Bihar,Patna,Social Work,2,₹35k–₹49k,18
+30,Unacademy,HR Intern,"Recruitment, Communication, Excel",B.Com,Karnataka,Bangalore,HR,4,₹42k–₹20k,14
+31,KPMG,Data Analyst Intern,"SQL, Excel, Data Analysis",B.Tech,Punjab,Chandigarh,IT,4,₹40k–₹50k,3
+32,Akshaya Patra Foundation,Teaching Intern,"Teaching, Training, Counselling",Law,Maharashtra,Pune,Education,3,₹30k–₹40k,5
+33,Infosys,Copywriter,"Copywriting, Creativity, Market Research",MBA,Rajasthan,Jaipur,Media,5,₹30k–₹20k,14
+34,Deloitte India,Healthcare Assistant,"Nursing, Public Health, Lab Analysis",BA,Uttar Pradesh,Lucknow,Healthcare,5,₹44k–₹24k,20
+35,Times of India,Business Development Intern,"Sales, Communication, Strategy",Law,Telangana,Hyderabad,Marketing,5,₹14k–₹20k,15
+36,Swiggy,HR Intern,"Recruitment, Communication, Excel",MBA,Delhi,New Delhi,HR,5,₹30k–₹49k,20
+37,Paytm,Social Work Intern,"Social Work, Community Outreach, Counselling",B.Sc,Kerala,Kochi,Social Work,1,₹35k–₹50k,13
+38,Swiggy,Legal Intern,"Legal Research, Drafting, Policy Analysis",Medical,Maharashtra,Mumbai,Law,4,₹34k–₹48k,5
+39,KPMG,Graphic Designer,"Photoshop, Illustrator, Creativity",Diploma,Rajasthan,Jaipur,Design,4,₹18k–₹21k,16
+40,HDFC Bank,Copywriter,"Copywriting, Creativity, Market Research",B.Sc,Rajasthan,Jaipur,Media,1,₹35k–₹43k,6
+41,ICICI Bank,HR Intern,"Recruitment, Communication, Excel",B.Com,Assam,Guwahati,HR,2,₹28k–₹45k,1
+42,Zomato,Software Intern,"Python, Django, SQL",BA,Punjab,Chandigarh,IT,1,₹29k–₹36k,13
+43,Smile Foundation,UI/UX Intern,"UI/UX, Wireframing, Figma",B.Sc,Delhi,New Delhi,Design,1,₹8k–₹43k,11
+44,Hindustan Times,Content Writer,"Content Writing, Copywriting, SEO",Law,West Bengal,Kolkata,Media,1,₹29k–₹28k,7
+45,TCS,Graphic Designer,"Photoshop, Illustrator, Creativity",B.Sc,West Bengal,Kolkata,Design,1,₹40k–₹32k,16
+46,OYO Rooms,UI/UX Intern,"UI/UX, Wireframing, Figma",B.Sc,Madhya Pradesh,Indore,Design,4,₹18k–₹34k,2
+47,Smile Foundation,Copywriter,"Copywriting, Creativity, Market Research",B.Com,Odisha,Bhubaneswar,Media,1,₹20k–₹42k,13
+48,OYO Rooms,Accounting Intern,"Accounting, Excel, Auditing",Diploma,Assam,Guwahati,Commerce,3,₹39k–₹49k,6
+49,Teach For India,Finance Analyst Intern,"Financial Analysis, Excel, Business Strategy",B.Sc,Rajasthan,Jaipur,Finance,6,₹10k–₹48k,8
+50,Times of India,UI/UX Intern,"UI/UX, Wireframing, Figma",Law,Kerala,Kochi,Design,6,₹40k–₹38k,16
+51,Akshaya Patra Foundation,Marketing Associate,"Digital Marketing, SEO, Social Media",Medical,Telangana,Hyderabad,Marketing,2,₹40k–₹22k,14
+52,Akshaya Patra Foundation,Healthcare Assistant,"Nursing, Public Health, Lab Analysis",B.Sc,Gujarat,Ahmedabad,Healthcare,5,₹16k–₹33k,16
+53,Indian Railways,Software Intern,"Python, Django, SQL",BBA,Punjab,Chandigarh,IT,2,₹19k–₹22k,18
+54,Swiggy,Marketing Associate,"Digital Marketing, SEO, Social Media",M.Com,Assam,Guwahati,Marketing,4,₹44k–₹23k,7
+55,SEWA NGO,Video Editor,"Video Editing, Adobe Premiere Pro, After Effects",B.Sc,Madhya Pradesh,Indore,Design,1,₹31k–₹32k,20
+56,CRY NGO,Data Analyst Intern,"SQL, Excel, Data Analysis",Law,Maharashtra,Pune,IT,2,₹43k–₹37k,13
+57,Deloitte India,Policy Research Intern,"Policy Analysis, Research, Report Writing",B.Sc,Assam,Guwahati,Government,1,₹41k–₹32k,13
+58,State Bank of India,Policy Research Intern,"Policy Analysis, Research, Report Writing",Law,Maharashtra,Mumbai,Government,6,₹41k–₹24k,11
+59,Hindustan Times,Social Work Intern,"Social Work, Community Outreach, Counselling",MBA,Telangana,Hyderabad,Social Work,1,₹21k–₹47k,19
+60,HDFC Bank,Healthcare Assistant,"Nursing, Public Health, Lab Analysis",B.Tech,Uttar Pradesh,Lucknow,Healthcare,3,₹11k–₹30k,3
+61,Infosys,Software Intern,"Python, Django, SQL",BA,Maharashtra,Pune,IT,1,₹25k–₹26k,20
+62,EY India,Social Work Intern,"Social Work, Community Outreach, Counselling",Medical,Delhi,New Delhi,Social Work,6,₹34k–₹35k,1
+63,Indian Railways,Copywriter,"Copywriting, Creativity, Market Research",MBA,Punjab,Chandigarh,Media,3,₹9k–₹44k,18
+64,State Bank of India,Teaching Intern,"Teaching, Training, Counselling",Law,Maharashtra,Pune,Education,6,₹9k–₹44k,2
+65,Paytm,Teaching Intern,"Teaching, Training, Counselling",MBA,Madhya Pradesh,Indore,Education,4,₹18k–₹40k,9
+66,ISRO,Data Analyst Intern,"SQL, Excel, Data Analysis",B.Sc,Rajasthan,Jaipur,IT,6,₹45k–₹38k,20
+67,Teach For India,Social Work Intern,"Social Work, Community Outreach, Counselling",B.Sc,Maharashtra,Pune,Social Work,6,₹17k–₹25k,11
+68,Indian Railways,Marketing Associate,"Digital Marketing, SEO, Social Media",BBA,West Bengal,Kolkata,Marketing,5,₹41k–₹40k,1
+69,SEWA NGO,Content Writer,"Content Writing, Copywriting, SEO",B.Com,West Bengal,Kolkata,Media,3,₹32k–₹49k,2
+70,KPMG,Tax Intern,"Taxation, Excel, Financial Reporting",M.Com,Punjab,Chandigarh,Commerce,5,₹31k–₹32k,20
+71,HDFC Bank,Teaching Intern,"Teaching, Training, Counselling",B.Tech,Kerala,Kochi,Education,4,₹17k–₹24k,19
+72,ICICI Bank,HR Intern,"Recruitment, Communication, Excel",MBA,Telangana,Hyderabad,HR,5,₹45k–₹41k,8
+73,ICICI Bank,HR Intern,"Recruitment, Communication, Excel",B.Com,Uttar Pradesh,Lucknow,HR,3,₹39k–₹49k,18
+74,PwC India,Finance Analyst Intern,"Financial Analysis, Excel, Business Strategy",BA,Delhi,New Delhi,Finance,5,₹42k–₹35k,6
+75,NITI Aayog,Video Editor,"Video Editing, Adobe Premiere Pro, After Effects",MBA,Assam,Guwahati,Design,5,₹36k–₹29k,8
+76,KPMG,UI/UX Intern,"UI/UX, Wireframing, Figma",B.Com,Delhi,New Delhi,Design,6,₹28k–₹46k,11
+77,Akshaya Patra Foundation,Graphic Designer,"Photoshop, Illustrator, Creativity",MBA,Kerala,Kochi,Design,4,₹30k–₹26k,20
+78,Teach For India,Content Writer,"Content Writing, Copywriting, SEO",BA,Maharashtra,Mumbai,Media,1,₹26k–₹22k,17
+79,Deloitte India,Copywriter,"Copywriting, Creativity, Market Research",MBA,Karnataka,Bangalore,Media,3,₹38k–₹34k,18
+80,Hindustan Times,Software Intern,"Python, Django, SQL",B.Com,Gujarat,Ahmedabad,IT,4,₹27k–₹22k,5
+81,Teach For India,Data Analyst Intern,"SQL, Excel, Data Analysis",MBA,Rajasthan,Jaipur,IT,2,₹5k–₹24k,11
+82,State Bank of India,UI/UX Intern,"UI/UX, Wireframing, Figma",B.Com,Maharashtra,Mumbai,Design,3,₹16k–₹42k,4
+83,Akshaya Patra Foundation,Video Editor,"Video Editing, Adobe Premiere Pro, After Effects",Diploma,Telangana,Hyderabad,Design,6,₹40k–₹31k,19
+84,Smile Foundation,Teaching Intern,"Teaching, Training, Counselling",B.Sc,Telangana,Hyderabad,Education,1,₹45k–₹28k,14
+85,Deloitte India,Marketing Associate,"Digital Marketing, SEO, Social Media",BA,West Bengal,Kolkata,Marketing,2,₹6k–₹29k,1
+86,Wipro,Teaching Intern,"Teaching, Training, Counselling",Law,Punjab,Chandigarh,Education,4,₹31k–₹30k,13
+87,Zomato,Data Analyst Intern,"SQL, Excel, Data Analysis",Medical,Gujarat,Ahmedabad,IT,4,₹18k–₹20k,15
+88,Flipkart,Graphic Designer,"Photoshop, Illustrator, Creativity",B.Tech,West Bengal,Kolkata,Design,3,₹30k–₹46k,18
+89,KPMG,Legal Intern,"Legal Research, Drafting, Policy Analysis",Medical,Delhi,New Delhi,Law,3,₹6k–₹20k,13
+90,NITI Aayog,Business Development Intern,"Sales, Communication, Strategy",MBA,Maharashtra,Pune,Marketing,5,₹14k–₹47k,14
+91,TCS,Social Work Intern,"Social Work, Community Outreach, Counselling",B.Sc,Karnataka,Bangalore,Social Work,3,₹21k–₹41k,16
+92,Hindustan Times,Accounting Intern,"Accounting, Excel, Auditing",Medical,Maharashtra,Mumbai,Commerce,3,₹35k–₹41k,12
+93,Swiggy,Accounting Intern,"Accounting, Excel, Auditing",B.Com,Madhya Pradesh,Indore,Commerce,5,₹11k–₹46k,18
+94,SEWA NGO,Data Analyst Intern,"SQL, Excel, Data Analysis",BBA,Maharashtra,Pune,IT,5,₹6k–₹27k,13
+95,Teach For India,Graphic Designer,"Photoshop, Illustrator, Creativity",Diploma,Telangana,Hyderabad,Design,2,₹39k–₹31k,2
+96,Indian Railways,Marketing Associate,"Digital Marketing, SEO, Social Media",B.Tech,Rajasthan,Jaipur,Marketing,2,₹19k–₹45k,10
+97,Hindustan Times,Teaching Intern,"Teaching, Training, Counselling",B.Com,Rajasthan,Jaipur,Education,5,₹34k–₹42k,14
+98,Reliance Industries,Data Analyst Intern,"SQL, Excel, Data Analysis",Law,Karnataka,Bangalore,IT,1,₹20k–₹21k,7
+99,Reliance Industries,Tax Intern,"Taxation, Excel, Financial Reporting",B.Com,Assam,Guwahati,Commerce,5,₹34k–₹34k,9
+100,PwC India,Legal Intern,"Legal Research, Drafting, Policy Analysis",B.Sc,Madhya Pradesh,Indore,Law,5,₹30k–₹34k,6

@@ -1,0 +1,101 @@
+ID,Name,State,City,Skills,Qualifications,Year_of_Study,GPA,Rural_or_Urban,First_Time_Applicant
+1,Rajeev Ranjan,Karnataka,Bengaluru,"Social Work, Teaching, Training",BA,3rd,6.99,Rural,No
+2,Manish Yadav,Uttar Pradesh,Lucknow,"Accounting, Excel, Business Strategy",MBA,Postgraduate,9.35,Rural,No
+3,Shruti Pandey,Karnataka,Bengaluru,"Accounting, Business Strategy, Financial Analysis",MBA,Graduate,9.86,Rural,No
+4,Aditya Verma,Maharashtra,Pune,"Public Health, Lab Analysis, Nursing",MBA,Postgraduate,8.52,Urban,Yes
+5,Siddharth Khanna,Assam,Guwahati,"Policy Analysis, Drafting, Legal Research",Diploma,3rd,7.39,Rural,No
+6,Sameer Qureshi,Maharashtra,Pune,"Lab Analysis, Nursing, Public Health",BA,4th,9.87,Rural,Yes
+7,Abhishek Rawat,Madhya Pradesh,Indore,"Digital Marketing, Social Media, SEO",BA,2nd,8.12,Rural,No
+8,Diya Nair,Himachal Pradesh,Shimla,"Legal Research, Drafting, Policy Analysis",B.Com,3rd,6.71,Urban,No
+9,Lakshya Kapoor,West Bengal,Kolkata,"Taxation, Financial Analysis, Excel",MBA,2nd,7.81,Rural,Yes
+10,Sameer Qureshi,Rajasthan,Jaipur,"Public Health, Lab Analysis, Nursing",B.Tech,Graduate,6.13,Urban,Yes
+11,Ashish Chauhan,Haryana,Gurgaon,"Financial Analysis, Business Strategy, Taxation",Medical,Graduate,6.27,Urban,Yes
+12,Vihaan Gupta,Maharashtra,Mumbai,"SEO, Copywriting, Social Media",B.Sc,4th,8.73,Rural,No
+13,Gayatri Pillai,Gujarat,Ahmedabad,"Digital Marketing, Social Media, Market Research",Diploma,Postgraduate,9.56,Urban,Yes
+14,Sneha Bansal,Jharkhand,Ranchi,"Taxation, Excel, Accounting",B.Sc,Postgraduate,6.34,Rural,Yes
+15,Gayatri Pillai,Kerala,Kochi,"Market Research, SEO, Digital Marketing",Diploma,Graduate,7.24,Urban,Yes
+16,Nisha Verma,Uttar Pradesh,Lucknow,"Teaching, Counselling, Social Work",B.Sc,4th,9.46,Urban,Yes
+17,Nisha Verma,Uttar Pradesh,Lucknow,"Training, Social Work, Counselling",Law,4th,7.75,Urban,No
+18,Aarav Sharma,Punjab,Amritsar,"Public Health, Lab Analysis, Nursing",B.Com,1st,7.88,Urban,No
+19,Siddharth Khanna,Madhya Pradesh,Indore,"Graphic Design, Video Editing, UI/UX",B.Com,4th,9.17,Rural,Yes
+20,Pallavi Reddy,Himachal Pradesh,Shimla,"Legal Research, Drafting, Policy Analysis",B.Tech,4th,6.58,Rural,No
+21,Pooja Agarwal,Rajasthan,Jaipur,"Web Development, SQL, Python",MBA,3rd,9.06,Urban,Yes
+22,Ashish Chauhan,Delhi,New Delhi,"Web Development, Machine Learning, Python",B.Com,2nd,7.97,Rural,No
+23,Ishita Roy,Madhya Pradesh,Indore,"Photoshop, UI/UX, Video Editing",Law,2nd,6.45,Rural,No
+24,Riddhi Deshmukh,Kerala,Kochi,"Lab Analysis, Nursing, Public Health",BBA,4th,6.94,Rural,Yes
+25,Pallavi Reddy,Madhya Pradesh,Indore,"Financial Analysis, Accounting, Auditing",Medical,3rd,9.47,Urban,No
+26,Meera Kulkarni,Kerala,Kochi,"Java, Web Development, SQL",BA,4th,9.85,Urban,Yes
+27,Priya Jha,Telangana,Hyderabad,"SEO, Copywriting, Social Media",MBA,2nd,8.92,Rural,No
+28,Ishita Roy,Rajasthan,Jaipur,"Social Media, Market Research, Content Writing",B.Sc,Postgraduate,7.73,Urban,Yes
+29,Lakshya Kapoor,Maharashtra,Mumbai,"Teaching, Social Work, Training",M.Com,Graduate,6.88,Urban,Yes
+30,Manish Yadav,Karnataka,Bengaluru,"Lab Analysis, Public Health, Nursing",B.Tech,4th,6.15,Rural,No
+31,Aditya Verma,Assam,Guwahati,"Digital Marketing, Content Writing, Market Research",BA,1st,6.43,Urban,No
+32,Siddharth Khanna,Madhya Pradesh,Indore,"Taxation, Accounting, Financial Analysis",BBA,2nd,7.2,Urban,Yes
+33,Sneha Bansal,Gujarat,Ahmedabad,"Data Analysis, Web Development, Machine Learning",B.Tech,3rd,8.14,Urban,Yes
+34,Yash Tiwari,Jharkhand,Ranchi,"SQL, Data Analysis, Java",MBA,Postgraduate,7.44,Rural,No
+35,Sanya Singh,Uttar Pradesh,Lucknow,"Policy Analysis, Drafting, Legal Research",MBA,Graduate,9.35,Urban,No
+36,Ritika Joshi,Odisha,Bhubaneswar,"Copywriting, Market Research, Digital Marketing",M.Com,Graduate,9.85,Urban,No
+37,Omkar Patil,Bihar,Patna,"Graphic Design, UI/UX, Video Editing",M.Com,2nd,7.04,Urban,Yes
+38,Niharika Chauhan,Punjab,Amritsar,"Graphic Design, Video Editing, UI/UX",Law,3rd,6.9,Rural,No
+39,Karan Malhotra,Maharashtra,Mumbai,"Drafting, Policy Analysis, Legal Research",BBA,3rd,9.39,Rural,Yes
+40,Ankit Mehta,Uttar Pradesh,Lucknow,"Python, Machine Learning, Data Analysis",M.Com,4th,9.78,Urban,Yes
+41,Gayatri Pillai,Madhya Pradesh,Indore,"Taxation, Accounting, Financial Analysis",BA,3rd,9.85,Rural,Yes
+42,Deepak Soni,Madhya Pradesh,Indore,"Content Writing, Copywriting, Market Research",B.Com,1st,9.67,Urban,Yes
+43,Ankit Mehta,Uttar Pradesh,Lucknow,"Policy Analysis, Legal Research, Drafting",B.Tech,4th,8.99,Urban,No
+44,Vihaan Gupta,West Bengal,Kolkata,"Nursing, Lab Analysis, Public Health",B.Com,2nd,9.41,Rural,No
+45,Shruti Pandey,West Bengal,Kolkata,"Drafting, Policy Analysis, Legal Research",BBA,Postgraduate,8.61,Urban,Yes
+46,Avni Sharma,Madhya Pradesh,Indore,"Auditing, Financial Analysis, Accounting",M.Com,3rd,9.43,Urban,No
+47,Rajeev Ranjan,Maharashtra,Pune,"Nursing, Lab Analysis, Public Health",M.Com,Postgraduate,6.7,Urban,Yes
+48,Prisha Anand,Assam,Guwahati,"Copywriting, Social Media, Market Research",BA,3rd,8.36,Urban,No
+49,Ritika Joshi,Tamil Nadu,Chennai,"Policy Analysis, Drafting, Legal Research",B.Tech,3rd,8.36,Rural,No
+50,Ashish Chauhan,Assam,Guwahati,"Lab Analysis, Nursing, Public Health",Diploma,Postgraduate,9.82,Rural,Yes
+51,Manish Yadav,Maharashtra,Pune,"Policy Analysis, Legal Research, Drafting",MBA,Graduate,6.3,Rural,Yes
+52,Aman Saxena,Gujarat,Ahmedabad,"Financial Analysis, Auditing, Excel",BBA,Graduate,9.37,Rural,No
+53,Neha Chatterjee,Uttar Pradesh,Lucknow,"Counselling, Training, Social Work",Medical,Postgraduate,7.47,Urban,Yes
+54,Charvi Singh,West Bengal,Kolkata,"Teaching, Social Work, Counselling",MBA,Graduate,7.67,Rural,Yes
+55,Mohit Bhatia,Chhattisgarh,Raipur,"Video Editing, Photoshop, Graphic Design",Diploma,1st,7.52,Rural,Yes
+56,Harsh Vardhan,Assam,Guwahati,"UI/UX, Photoshop, Graphic Design",Diploma,Postgraduate,9.09,Urban,No
+57,Ishita Roy,Maharashtra,Mumbai,"Video Editing, Graphic Design, UI/UX",B.Tech,4th,7.11,Rural,No
+58,Shruti Pandey,Jharkhand,Ranchi,"Social Media, SEO, Digital Marketing",Medical,1st,6.29,Urban,Yes
+59,Riddhi Deshmukh,Kerala,Kochi,"Nursing, Lab Analysis, Public Health",B.Tech,Graduate,9.01,Urban,Yes
+60,Vihaan Gupta,Uttar Pradesh,Lucknow,"Photoshop, UI/UX, Graphic Design",Medical,Graduate,8.76,Urban,Yes
+61,Prisha Anand,Punjab,Amritsar,"Counselling, Teaching, Training",BBA,2nd,9.93,Urban,No
+62,Vivaan Patel,Gujarat,Ahmedabad,"Excel, Financial Analysis, Taxation",Medical,3rd,6.52,Urban,Yes
+63,Riddhi Deshmukh,Maharashtra,Pune,"Public Health, Lab Analysis, Nursing",Law,4th,8.64,Urban,No
+64,Neha Chatterjee,Maharashtra,Pune,"SEO, Content Writing, Digital Marketing",BBA,4th,8.87,Rural,No
+65,Omkar Patil,Punjab,Amritsar,"Lab Analysis, Nursing, Public Health",B.Tech,Graduate,7.99,Urban,Yes
+66,Ananya Mishra,Tamil Nadu,Chennai,"Auditing, Taxation, Excel",Law,4th,6.72,Rural,Yes
+67,Sanya Singh,Assam,Guwahati,"Digital Marketing, Social Media, Market Research",Medical,1st,7.37,Urban,No
+68,Charvi Singh,Odisha,Bhubaneswar,"SQL, Web Development, Java",MBA,2nd,7.93,Rural,Yes
+69,Prisha Anand,Odisha,Bhubaneswar,"Social Work, Counselling, Training",B.Sc,4th,8.49,Rural,No
+70,Diya Nair,Uttar Pradesh,Lucknow,"Video Editing, Photoshop, Graphic Design",Medical,Postgraduate,6.38,Rural,Yes
+71,Krishna Menon,Chhattisgarh,Raipur,"Taxation, Auditing, Accounting",Medical,Graduate,9.47,Urban,Yes
+72,Diya Nair,Bihar,Patna,"Web Development, SQL, Java",Law,3rd,7.04,Urban,Yes
+73,Avni Sharma,Haryana,Gurgaon,"Machine Learning, Web Development, Java",Diploma,Postgraduate,7.26,Rural,No
+74,Mohit Bhatia,Tamil Nadu,Chennai,"Content Writing, Social Media, SEO",M.Com,1st,9.62,Urban,No
+75,Smriti Kapoor,Tamil Nadu,Chennai,"SQL, Data Analysis, Web Development",B.Tech,Postgraduate,9.98,Urban,No
+76,Ritika Joshi,Karnataka,Bengaluru,"Machine Learning, Data Analysis, SQL",Diploma,Postgraduate,9.4,Rural,Yes
+77,Vivaan Patel,Bihar,Patna,"Taxation, Business Strategy, Financial Analysis",B.Com,1st,6.81,Rural,No
+78,Yash Tiwari,Karnataka,Bengaluru,"Data Analysis, Python, Web Development",B.Sc,2nd,9.55,Rural,Yes
+79,Gayatri Pillai,Madhya Pradesh,Indore,"Taxation, Auditing, Accounting",B.Com,1st,9.63,Rural,Yes
+80,Harsh Vardhan,Maharashtra,Mumbai,"Training, Counselling, Teaching",Diploma,2nd,7.37,Urban,No
+81,Simran Kaur,Madhya Pradesh,Indore,"Counselling, Social Work, Training",BBA,Graduate,9.08,Rural,Yes
+82,Priya Jha,Rajasthan,Jaipur,"Teaching, Counselling, Training",BBA,2nd,8.12,Rural,Yes
+83,Sai Iyer,Maharashtra,Pune,"Copywriting, Market Research, Digital Marketing",B.Com,1st,8.64,Rural,No
+84,Omkar Patil,Haryana,Gurgaon,"Excel, Auditing, Accounting",B.Com,Postgraduate,7.12,Rural,No
+85,Pallavi Reddy,Delhi,New Delhi,"Social Work, Counselling, Teaching",Diploma,4th,8.15,Rural,Yes
+86,Arjun Reddy,Rajasthan,Jaipur,"Social Media, Content Writing, Copywriting",BBA,1st,8.16,Rural,No
+87,Aditi Saxena,Jharkhand,Ranchi,"SQL, Machine Learning, Data Analysis",B.Tech,4th,9.32,Urban,Yes
+88,Kavya Sethi,West Bengal,Kolkata,"Excel, Financial Analysis, Accounting",B.Tech,4th,9.09,Rural,Yes
+89,Aditi Saxena,Madhya Pradesh,Indore,"Teaching, Social Work, Counselling",M.Com,2nd,8.13,Rural,Yes
+90,Charvi Singh,Rajasthan,Jaipur,"Auditing, Excel, Business Strategy",B.Sc,1st,8.23,Urban,Yes
+91,Aman Saxena,Rajasthan,Jaipur,"Legal Research, Policy Analysis, Drafting",Diploma,Graduate,9.59,Rural,Yes
+92,Charvi Singh,Assam,Guwahati,"Public Health, Nursing, Lab Analysis",Diploma,2nd,8.65,Urban,No
+93,Priya Jha,Assam,Guwahati,"Photoshop, Graphic Design, UI/UX",B.Tech,Postgraduate,6.47,Rural,Yes
+94,Vihaan Gupta,Kerala,Kochi,"Policy Analysis, Legal Research, Drafting",B.Tech,Graduate,6.63,Rural,Yes
+95,Simran Kaur,Odisha,Bhubaneswar,"Machine Learning, Java, Web Development",Medical,Postgraduate,6.23,Rural,No
+96,Riddhi Deshmukh,Punjab,Amritsar,"Business Strategy, Financial Analysis, Auditing",Medical,Postgraduate,9.79,Rural,No
+97,Smriti Kapoor,Assam,Guwahati,"Drafting, Policy Analysis, Legal Research",Law,3rd,6.11,Urban,No
+98,Rohan Das,Haryana,Gurgaon,"Java, Python, Machine Learning",Law,3rd,8.74,Urban,Yes
+99,Ananya Mishra,Bihar,Patna,"Photoshop, Graphic Design, UI/UX",B.Sc,Postgraduate,9.3,Rural,Yes
+100,Rohan Das,Madhya Pradesh,Indore,"Java, Web Development, Python",BBA,2nd,6.03,Rural,Yes

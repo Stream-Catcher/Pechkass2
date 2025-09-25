@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM Internship Scheme - Empowering Indian Youth</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <a href="index.html" class="header__logo" style="text-decoration: none; color: inherit;">
+    <div class="logo__emblem">🇮🇳</div>
+    <div class="logo__text">
+        <h3>PM Internship</h3>
+        <span>Government of India</span>
+    </div>
+</a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <!-- <li><a href="javascript:void(0)" class="nav__link" onclick="navigateToFeature('resume-generator')">Resume Generator</a></li> -->
+                        <li><a href="http://localhost:3000/" class="nav__link">Resume Builder</a></li>
+                        <!-- <li><a href="javascript:void(0)" class="nav__link" onclick="navigateToFeature('ats-checker')">ATS Score Checker</a></li> -->
+                        <li><a href="http://localhost:8501/" class="nav__link">ATS Score Checker</a></li>
+
+                        <li><a href="Chat/Chat.html" class="nav__link">AI Job Board</a></li>
+
+                        <li><a href="http://localhost:5173/" class="nav__link">AI Interview</a></li>
+                        <!-- <li><a href="javascript:void(0)" class="nav__link" onclick="navigateToFeature('mentorship')">Mentorship</a></li> -->
+                        <li><a  class="nav__link btn--primary cursor-pointer" onclick="window.location.href='Profile/profile.html'">Profile</a></li>
+                    </ul>
+                    <button class="nav__toggle" onclick="toggleMobileNav()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero__background"></div>
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">Prime Minister<br><span class="hero__highlight">Internship Scheme</span></h1>
+                        <p class="hero__description">Empowering the youth of India with world-class internship opportunities. Build your career, serve the nation, and shape tomorrow's India.</p>
+                        <div class="hero__animated-text">
+                            <span class="animated-text" id="animatedText">Apply Now</span>
+                        </div>
+                        <div class="hero__buttons">
+                            <button class="btn btn--primary btn--lg" onclick="showRegister()">
+                                <i class="fas fa-rocket"></i> Start Your Journey
+                            </button>
+                            <!-- <button class="btn btn--outline btn--lg" onclick="window.location.href='Profile/profile.html'">
+    <i class="fas fa-info-circle"></i> Profile
+</button> -->
+
+                        </div>
+                        <div class="hero__stats">
+                            <div class="stat">
+                                <div class="stat__number">125,000</div>
+                                <div class="stat__label">Opportunities</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__number">₹5,000</div>
+                                <div class="stat__label">Monthly Stipend</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__number">87%</div>
+                                <div class="stat__label">Success Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__image">
+                <div class="pm-container">
+                    <img src="img/modi.png" alt="PM Narendra Modi" class="pm-image">
+
+                      
+                    </div>
+                    <div class="hero__flag-animation"></div>
+                </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="statistics">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Transforming Lives Across India</h2>
+                    <p class="section__description">Numbers that showcase the impact of PM Internship Scheme</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-card__icon"></div>
+                        <div class="stat-card__number">2.5M+</div>
+                        <div class="stat-card__label">Applications Received</div>
+                        <div class="stat-card__description">Massive response from Indian youth</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__icon"></div>
+                        <div class="stat-card__number">87%</div>
+                        <div class="stat-card__label">Placement Success</div>
+                        <div class="stat-card__description">High job placement rate</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__icon"></div>
+                        <div class="stat-card__number">500+</div>
+                        <div class="stat-card__label">Partner Companies</div>
+                        <div class="stat-card__description">Industry partnerships</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__icon"></div>
+                        <div class="stat-card__number">₹4.2L</div>
+                        <div class="stat-card__label">Average Salary</div>
+                        <div class="stat-card__description">Competitive compensation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Stories Carousel -->
+        <section class="success-stories">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Success Stories</h2>
+                    <p class="section__description">Real journeys of young Indians who transformed their careers</p>
+                </div>
+                <div class="stories-carousel">
+                    <div class="story-card">
+                        <div class="story-card__avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="story-card__content">
+                            <h4>Rahul Sharma</h4>
+                            <p class="story-card__role">Software Developer at TCS</p>
+                            <p class="story-card__quote">"From a small town to working at India's top IT company. PM Internship changed my life completely."</p>
+                            <div class="story-card__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-card__avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="story-card__content">
+                            <h4>Priya Kumari</h4>
+                            <p class="story-card__role">Business Analyst at Wipro</p>
+                            <p class="story-card__quote">"The mentorship and training I received prepared me for the corporate world like nothing else."</p>
+                            <div class="story-card__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-card__avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="story-card__content">
+                            <h4>Arjun Patel</h4>
+                            <p class="story-card__role">Data Scientist at Infosys</p>
+                            <p class="story-card__quote">"Best decision of my career. The hands-on experience and industry exposure was invaluable."</p>
+                            <div class="story-card__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program Highlights -->
+        <section class="program-highlights">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Program Highlights</h2>
+                    <p class="section__description">Why PM Internship Scheme stands apart</p>
+                </div>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-card__icon"></div>
+                        <h3>Industry Training</h3>
+                        <p>Hands-on experience with real projects and cutting-edge technologies</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-card__icon"></div>
+                        <h3>Expert Mentorship</h3>
+                        <p>Guidance from industry leaders and successful professionals</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-card__icon"></div>
+                        <h3>Government Certification</h3>
+                        <p>Recognized certificates that boost your career prospects</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-card__icon"></div>
+                        <h3>Career Support</h3>
+                        <p>Comprehensive job placement assistance and career guidance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extended Gallery -->
+        <section class="extended-gallery">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Journey in Pictures</h2>
+                    <p class="section__description">Moments that define the PM Internship experience</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Training Sessions</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-handshake"></i>
+                            <span>Industry Partnerships</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-users"></i>
+                            <span>Team Collaborations</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-trophy"></i>
+                            <span>Achievement Ceremonies</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Technical Workshops</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-building"></i>
+                            <span>Corporate Visits</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industry Partnerships -->
+        <section class="industry-partnerships">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Industry Partners</h2>
+                    <p class="section__description">Leading companies that trust our interns</p>
+                </div>
+                <div class="partners-grid">
+                    <div class="partner-card">
+                        <div class="partner-logo">TCS</div>
+                        <div class="partner-info">
+                            <h4>Tata Consultancy Services</h4>
+                            <p>IT Services</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">INFY</div>
+                        <div class="partner-info">
+                            <h4>Infosys</h4>
+                            <p>IT Services</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">WIPRO</div>
+                        <div class="partner-info">
+                            <h4>Wipro</h4>
+                            <p>IT Services</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">RIL</div>
+                        <div class="partner-info">
+                            <h4>Reliance Industries</h4>
+                            <p>Energy</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">HDFC</div>
+                        <div class="partner-info">
+                            <h4>HDFC Bank</h4>
+                            <p>Banking</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">M&M</div>
+                        <div class="partner-info">
+                            <h4>Mahindra Group</h4>
+                            <p>Automotive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievement Showcase -->
+        <section class="achievements">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Achievements</h2>
+                    <p class="section__description">Milestones that make us proud</p>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon"></div>
+                        <h3>2.5M+ Applications</h3>
+                        <p>Massive response from Indian youth showcasing trust in our program</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon"></div>
+                        <h3>87% Success Rate</h3>
+                        <p>High placement percentage demonstrating program effectiveness</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon"></div>
+                        <h3>500+ Companies</h3>
+                        <p>Strong industry partnerships across multiple sectors</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon"></div>
+                        <h3>₹4.2L Average Salary</h3>
+                        <p>Competitive compensation packages for our graduates</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">What Experts Say</h2>
+                    <p class="section__description">Industry leaders' perspective on PM Internship Scheme</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"PM Internship Scheme has revolutionized how young Indians enter the workforce. The structured approach and industry partnerships create real opportunities."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Dr. Rajesh Kumar</h4>
+                                <p>Education Policy Expert</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"This program bridges the critical gap between academic learning and industry requirements. A game-changer for Indian youth."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sunita Mehta</h4>
+                                <p>HR Director, Fortune 500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"The quality of interns from PM Scheme is exceptional. They come prepared, skilled, and ready to contribute from day one."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Vikram Singh</h4>
+                                <p>CEO, Tech Startup</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extended Articles Section -->
+        <section class="extended-articles">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Latest Insights</h2>
+                    <p class="section__description">Deep dives into internship trends and career development</p>
+                </div>
+                <div class="articles-grid">
+                    <article class="article-card featured">
+                        <div class="article-card__content">
+                            <div class="article-badge">Featured</div>
+                            <h3>PM Internship Scheme: Transforming India's Youth Employment Landscape</h3>
+                            <p>An in-depth analysis of how the Prime Minister's Internship Scheme is creating unprecedented opportunities for young Indians across diverse sectors...</p>
+                            <div class="article-card__meta">
+                                <span class="meta__time">8 min read</span>
+                                <span class="meta__category">Policy Analysis</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-card__content">
+                            <h3>From Campus to Corporate: Success Stories from PM Interns</h3>
+                            <p>Inspiring journeys of young professionals who leveraged the PM Internship Program to launch successful careers...</p>
+                            <div class="article-card__meta">
+                                <span class="meta__time">6 min read</span>
+                                <span class="meta__category">Success Stories</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-card__content">
+                            <h3>Industry Partnership Excellence</h3>
+                            <p>Exploring how major corporations are transforming their talent acquisition strategies through partnerships...</p>
+                            <div class="article-card__meta">
+                                <span class="meta__time">5 min read</span>
+                                <span class="meta__category">Industry Insights</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-card__content">
+                            <h3>Digital Skills Revolution</h3>
+                            <p>How the PM Internship Program is equipping young Indians with cutting-edge digital skills for Industry 4.0...</p>
+                            <div class="article-card__meta">
+                                <span class="meta__time">7 min read</span>
+                                <span class="meta__category">Skill Development</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Call to Action -->
+        <section class="final-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Transform Your Career?</h2>
+                    <p>Join thousands of successful young professionals who started their journey with PM Internship Scheme</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn--primary btn--lg" onclick="showRegister()">
+                            <i class="fas fa-rocket"></i> Start Your Application
+                        </button>
+                        <button class="btn btn--outline btn--lg" onclick="navigateToFeature('mentorship')">
+                            <i class="fas fa-users"></i> Meet Our Mentors
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <div class="logo__emblem">🇮🇳</div>
+                        <div>
+                            <h4>PM Internship Scheme</h4>
+                            <p>Government of India</p>
+                        </div>
+                    </div>
+                    <p>Empowering Indian youth with world-class internship opportunities and career development programs.</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Features</h4>
+                    <ul>
+                        <li><a href="javascript:void(0)" onclick="navigateToFeature('resume-generator')">Resume Generator</a></li>
+                        <li><a href="javascript:void(0)" onclick="navigateToFeature('ats-checker')">ATS Score Checker</a></li>
+                        <!-- <li><a href="http://localhost:8501/" onclick="navigateToFeature('ats-checker')">ATS Score Checker</a></li> -->
+                        <li><a href="javascript:void(0)" onclick="navigateToFeature('job-board')">AI Job Board</a></li>
+                        <li><a href="javascript:void(0)" onclick="navigateToFeature('live-interview')">AI Interview</a></li>
+                        <li><a href="javascript:void(0)" onclick="navigateToFeature('mentorship')">Mentorship</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Program</h4>
+                    <ul>
+                        <li><a href="javascript:void(0)" onclick="scrollToSection('home')">About Program</a></li>
+                        <li><a href="javascript:void(0)">Eligibility</a></li>
+                        <li><a href="javascript:void(0)">Application Process</a></li>
+                        <li><a href="javascript:void(0)">Success Stories</a></li>
+                        <li><a href="javascript:void(0)">Industry Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> support@pminternship.gov.in</li>
+                        <li><i class="fas fa-phone"></i> 1800-PM-INTERN</li>
+                        <li><i class="fas fa-map-marker-alt"></i> New Delhi, India</li>
+                        <li><i class="fas fa-globe"></i> www.pminternship.gov.in</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Government of India. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple Login Modal -->
+    <div id="loginModal" class="modal hidden">
+        <div class="modal__overlay" onclick="hideModal('loginModal')"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h2>Login to Your Account</h2>
+                <button class="modal__close" onclick="hideModal('loginModal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form class="form" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <input type="password" name="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+                <p class="text-center">Don't have an account? <a href="javascript:void(0)" onclick="hideModal('loginModal'); showRegister();">Register here</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Simple Registration Modal -->
+    <div id="registerModal" class="modal hidden">
+        <div class="modal__overlay" onclick="hideModal('registerModal')"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h2>Create Your Account</h2>
+                <button class="modal__close" onclick="hideModal('registerModal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form class="form" onsubmit="handleRegistration(event)">
+                <div class="form-group">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" name="fullName" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <input type="password" name="password" class="form-control" required minlength="6">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Confirm Password</label>
+                    <input type="password" name="confirmPassword" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-container">
+                        <input type="checkbox" name="termsAccepted" required>
+                        <span class="checkmark"></span>
+                        I agree to the Terms and Conditions
+                    </label>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full-width">Register</button>
+                <p class="text-center">Already have an account? <a href="javascript:void(0)" onclick="hideModal('registerModal'); showLogin();">Login here</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Profile Creation Section -->
+    <div id="profileCreation" class="profile-creation hidden">
+        <div class="container">
+            <div class="profile-creation__header">
+                <button class="btn btn--outline" onclick="hideProfileCreation()">
+                    <i class="fas fa-arrow-left"></i> Back to Home
+                </button>
+                <h1>Create Your Profile</h1>
+                <p>Complete your profile to access all features and opportunities</p>
+            </div>
+            <div class="profile-creation__content">
+                <div class="profile-sidebar">
+                    <h3>Profile Sections</h3>
+                    <nav class="profile-nav">
+                        <a href="javascript:void(0)" class="profile-nav__link active" data-section="personal" onclick="showProfileSection('personal')">
+                            <i class="fas fa-user"></i> Personal Information
+                        </a>
+                        <a href="javascript:void(0)" class="profile-nav__link" data-section="education" onclick="showProfileSection('education')">
+                            <i class="fas fa-graduation-cap"></i> Educational Background
+                        </a>
+                        <a href="javascript:void(0)" class="profile-nav__link" data-section="contact" onclick="showProfileSection('contact')">
+                            <i class="fas fa-address-book"></i> Contact Details
+                        </a>
+                        <a href="javascript:void(0)" class="profile-nav__link" data-section="experience" onclick="showProfileSection('experience')">
+                            <i class="fas fa-briefcase"></i> Professional Experience
+                        </a>
+                        <a href="javascript:void(0)" class="profile-nav__link" data-section="skills" onclick="showProfileSection('skills')">
+                            <i class="fas fa-tools"></i> Skills & Competencies
+                        </a>
+                        <a href="javascript:void(0)" class="profile-nav__link" data-section="additional" onclick="showProfileSection('additional')">
+                            <i class="fas fa-plus-circle"></i> Additional Information
+                        </a>
+                    </nav>
+                    <div class="profile-progress">
+                        <h4>Progress</h4>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="profileProgressFill"></div>
+                        </div>
+                        <p><span id="profileProgressText">0</span>% Complete</p>
+                    </div>
+                </div>
+                <div class="profile-main">
+                    <form id="profileForm">
+                        <!-- Personal Information Section -->
+                        <div class="profile-section active" data-section="personal">
+                            <h2>Personal Information</h2>
+                            <div class="form-columns">
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Full Name</label>
+                                        <input type="text" name="fullName" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Date of Birth</label>
+                                        <input type="date" name="dateOfBirth" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Gender</label>
+                                        <select name="gender" class="form-control" required>
+                                            <option value="">Select Gender</option>
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Nationality</label>
+                                        <input type="text" name="nationality" class="form-control" value="Indian" readonly>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn--primary" onclick="nextProfileSection()">Next</button>
+                        </div>
+
+                        <!-- Education Section -->
+                        <div class="profile-section" data-section="education">
+                            <h2>Educational Background</h2>
+                            <div class="form-columns">
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Highest Education</label>
+                                        <select name="education" class="form-control" required>
+                                            <option value="">Select Education Level</option>
+                                            <option value="10th">Class 10th</option>
+                                            <option value="12th">Class 12th</option>
+                                            <option value="diploma">Diploma</option>
+                                            <option value="graduation">Graduation</option>
+                                            <option value="post-graduation">Post Graduation</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Institution Name</label>
+                                        <input type="text" name="institution" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Year of Completion</label>
+                                        <input type="number" name="yearOfCompletion" class="form-control" min="2015" max="2030" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Percentage/CGPA</label>
+                                        <input type="text" name="grade" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn--outline" onclick="prevProfileSection()">Previous</button>
+                                <button type="button" class="btn btn--primary" onclick="nextProfileSection()">Next</button>
+                            </div>
+                        </div>
+
+                        <!-- Contact Details Section -->
+                        <div class="profile-section" data-section="contact">
+                            <h2>Contact Details</h2>
+                            <div class="form-columns">
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Phone Number</label>
+                                        <input type="tel" name="phone" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Alternate Phone</label>
+                                        <input type="tel" name="alternatePhone" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Email Address</label>
+                                        <input type="email" name="email" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Current Address</label>
+                                        <textarea name="address" class="form-control" rows="3" required></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">City</label>
+                                        <input type="text" name="city" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">State</label>
+                                        <input type="text" name="state" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn--outline" onclick="prevProfileSection()">Previous</button>
+                                <button type="button" class="btn btn--primary" onclick="nextProfileSection()">Next</button>
+                            </div>
+                        </div>
+
+                        <!-- Experience Section -->
+                        <div class="profile-section" data-section="experience">
+                            <h2>Professional Experience</h2>
+                            <div class="form-columns">
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Work Experience</label>
+                                        <select name="experience" class="form-control" required>
+                                            <option value="">Select Experience Level</option>
+                                            <option value="fresher">Fresher (0 years)</option>
+                                            <option value="0-1">0-1 years</option>
+                                            <option value="1-2">1-2 years</option>
+                                            <option value="2+">2+ years</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Previous Company</label>
+                                        <input type="text" name="previousCompany" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Previous Role</label>
+                                        <input type="text" name="previousRole" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Duration (Previous Role)</label>
+                                        <input type="text" name="previousDuration" class="form-control" placeholder="e.g., 6 months">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn--outline" onclick="prevProfileSection()">Previous</button>
+                                <button type="button" class="btn btn--primary" onclick="nextProfileSection()">Next</button>
+                            </div>
+                        </div>
+
+                        <!-- Skills Section -->
+                        <div class="profile-section" data-section="skills">
+                            <h2>Skills & Competencies</h2>
+                            <div class="form-columns">
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Technical Skills</label>
+                                        <textarea name="technicalSkills" class="form-control" rows="3" placeholder="e.g., Java, Python, SQL, Excel" required></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Soft Skills</label>
+                                        <textarea name="softSkills" class="form-control" rows="3" placeholder="e.g., Communication, Leadership, Teamwork" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Preferred Industry</label>
+                                        <select name="preferredIndustry" class="form-control" required>
+                                            <option value="">Select Industry</option>
+                                            <option value="banking">Banking & Finance</option>
+                                            <option value="it">IT Services</option>
+                                            <option value="energy">Energy</option>
+                                            <option value="automotive">Automotive</option>
+                                            <option value="manufacturing">Manufacturing</option>
+                                            <option value="healthcare">Healthcare</option>
+                                            <option value="retail">Retail</option>
+                                            <option value="logistics">Logistics</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Certifications</label>
+                                        <textarea name="certifications" class="form-control" rows="3" placeholder="List any relevant certifications"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn--outline" onclick="prevProfileSection()">Previous</button>
+                                <button type="button" class="btn btn--primary" onclick="nextProfileSection()">Next</button>
+                            </div>
+                        </div>
+
+                        <!-- Additional Information Section -->
+                        <div class="profile-section" data-section="additional">
+                            <h2>Additional Information</h2>
+                            <div class="form-columns">
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Family Annual Income</label>
+                                        <select name="familyIncome" class="form-control" required>
+                                            <option value="">Select Income Range</option>
+                                            <option value="below-2">Below ₹2 lakh</option>
+                                            <option value="2-5">₹2-5 lakh</option>
+                                            <option value="5-8">₹5-8 lakh</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">LinkedIn Profile</label>
+                                        <input type="url" name="linkedin" class="form-control" placeholder="https://linkedin.com/in/yourprofile">
+                                    </div>
+                                </div>
+                                <div class="form-column">
+                                    <div class="form-group">
+                                        <label class="form-label">Career Objectives</label>
+                                        <textarea name="careerObjectives" class="form-control" rows="4" placeholder="Describe your career goals and aspirations"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn--outline" onclick="prevProfileSection()">Previous</button>
+                                <button type="submit" class="btn btn--primary">Complete Profile</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Card Display -->
+    <div id="profileCard" class="profile-card-display hidden">
+        <div class="container">
+            <div class="profile-card-header">
+                <h1>Your Profile Card</h1>
+                <p>Your professional profile has been created successfully!</p>
+                <button class="btn btn--outline" onclick="hideProfileCard()">
+                    <i class="fas fa-times"></i> Close
+                </button>
+            </div>
+            <div class="profile-card">
+                <div class="profile-card__header">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="profile-info">
+                        <h2 id="profileCardName">Full Name</h2>
+                        <p id="profileCardRole">Aspiring Professional</p>
+                        <p id="profileCardLocation">City, State</p>
+                    </div>
+                </div>
+                <div class="profile-card__content" id="profileCardContent">
+                    <!-- Content will be populated by JavaScript -->
+                </div>
+                <div class="profile-card__actions">
+                    <button class="btn btn--primary" onclick="editProfile()">Edit Profile</button>
+                    <button class="btn btn--outline" onclick="downloadProfile()">Download PDF</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

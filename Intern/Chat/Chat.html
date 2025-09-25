@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Job Matching - PM Internship Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <a href="../index.html" class="header__logo" style="text-decoration: none; color: inherit;">
+    <div class="logo__emblem">🇮🇳</div>
+    <div class="logo__text">
+        <h3>PM Internship</h3>
+        <span>Government of India</span>
+    </div>
+</a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <!-- <li><a href="javascript:void(0)" class="nav__link" onclick="navigateToFeature('resume-generator')">Resume Generator</a></li> -->
+                        <li><a href="http://localhost:3000/" class="nav__link">Resume Builder</a></li>
+                        <!-- <li><a href="javascript:void(0)" class="nav__link" onclick="navigateToFeature('ats-checker')">ATS Score Checker</a></li> -->
+                        <li><a href="http://localhost:8501/" class="nav__link">ATS Score Checker</a></li>
+
+                        <li><a href="Chat.html" class="nav__link">AI Job Board</a></li>
+
+                        <li><a href="javascript:void(0)" class="nav__link" onclick="navigateToFeature('live-interview')">AI Interview</a></li>
+                        <!-- <li><a href="javascript:void(0)" class="nav__link" onclick="navigateToFeature('mentorship')">Mentorship</a></li> -->
+                        <li><a  class="nav__link btn--primary cursor-pointer" onclick="window.location.href='Profile/profile.html'">Profile</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <!-- <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">
+                        AI-Powered<br>
+                        <span class="hero__highlight">Job Matching</span>
+                    </h1>
+                    <p class="hero__description">
+                        Empowering diverse talent across India with intelligent, bias-free job matching. 
+                        Our AI system creates fair opportunities for all students and professionals.
+                    </p>
+                    <div class="hero__stats">
+                        <div class="hero__stat">
+                            <div class="hero__stat-number">33%</div>
+                            <div class="hero__stat-label">Increase in diversity hiring</div>
+                        </div>
+                        <div class="hero__stat">
+                            <div class="hero__stat-number">500+</div>
+                            <div class="hero__stat-label">Partner companies</div>
+                        </div>
+                        <div class="hero__stat">
+                            <div class="hero__stat-number">87%</div>
+                            <div class="hero__stat-label">Success rate</div>
+                        </div>
+                    </div>
+                    <div class="hero__buttons">
+                        <button class="btn btn--primary btn--lg" onclick="scrollToSection('chatbot')">
+                            <i class="fas fa-robot"></i> Start AI Matching
+                        </button>
+                        <button class="btn btn--outline btn--lg" onclick="scrollToSection('overview')">
+                            <i class="fas fa-info-circle"></i> Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="ai-visualization">
+                        <div class="ai-brain">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="ai-connections">
+                            <div class="connection"></div>
+                            <div class="connection"></div>
+                            <div class="connection"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- AI Overview Section -->
+    <section id="overview" class="ai-overview" style="margin-top: 7rem;">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">AI System Overview</h2>
+                <p class="section__description">
+                    Our advanced AI promotes fair hiring and creates inclusive opportunities for all Indians
+                </p>
+            </div>
+            <div class="ai-features-grid">
+                <div class="ai-feature">
+                    <div class="ai-feature__icon">🎯</div>
+                    <h3>Bias-Free Matching</h3>
+                    <p>AI eliminates unconscious bias by focusing on skills and qualifications</p>
+                </div>
+                <div class="ai-feature">
+                    <div class="ai-feature__icon">🌍</div>
+                    <h3>Inclusive Language Processing</h3>
+                    <p>Understands diverse communication styles and cultural contexts</p>
+                </div>
+                <div class="ai-feature">
+                    <div class="ai-feature__icon">♿</div>
+                    <h3>Accessibility Support</h3>
+                    <p>Matches candidates with disability-friendly workplaces</p>
+                </div>
+                <div class="ai-feature">
+                    <div class="ai-feature__icon">🔄</div>
+                    <h3>Career Gap Understanding</h3>
+                    <p>Recognizes and values non-linear career paths</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diversity Hiring Showcase -->
+    <section id="diversity" class="diversity-showcase">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Diversity Hiring Excellence</h2>
+                <p class="section__description">
+                    Leading the transformation in inclusive hiring practices across India
+                </p>
+            </div>
+            <div class="diversity-stats">
+                <div class="diversity-overview">
+                    <div class="diversity-metric">
+                        <div class="diversity-metric__number">33%</div>
+                        <div class="diversity-metric__label">YoY Growth in Diversity Hiring</div>
+                    </div>
+                    <div class="diversity-breakdown">
+                        <div class="breakdown-item">
+                            <div class="breakdown-label">Women</div>
+                            <div class="breakdown-bar">
+                                <div class="breakdown-fill" style="width: 68%"></div>
+                            </div>
+                            <div class="breakdown-percent">68%</div>
+                        </div>
+                        <div class="breakdown-item">
+                            <div class="breakdown-label">LGBTQIA+</div>
+                            <div class="breakdown-bar">
+                                <div class="breakdown-fill" style="width: 15%"></div>
+                            </div>
+                            <div class="breakdown-percent">15%</div>
+                        </div>
+                        <div class="breakdown-item">
+                            <div class="breakdown-label">PWD</div>
+                            <div class="breakdown-bar">
+                                <div class="breakdown-fill" style="width: 5%"></div>
+                            </div>
+                            <div class="breakdown-percent">5%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="diversity-sectors">
+                    <h3>Top Hiring Sectors</h3>
+                    <div class="sectors-list">
+                        <div class="sector-item">
+                            <span class="sector-name">IT Services</span>
+                            <span class="sector-percent">23%</span>
+                        </div>
+                        <div class="sector-item">
+                            <span class="sector-name">BFSI</span>
+                            <span class="sector-percent">21%</span>
+                        </div>
+                        <div class="sector-item">
+                            <span class="sector-name">Consulting</span>
+                            <span class="sector-percent">12%</span>
+                        </div>
+                        <div class="sector-item">
+                            <span class="sector-name">Healthcare</span>
+                            <span class="sector-percent">8%</span>
+                        </div>
+                        <div class="sector-item">
+                            <span class="sector-name">E-commerce</span>
+                            <span class="sector-percent">6%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="diversity-cities">
+                    <h3>Leading Cities</h3>
+                    <div class="cities-list">
+                        <div class="city-item">
+                            <span class="city-name">Bengaluru</span>
+                            <span class="city-percent">28%</span>
+                        </div>
+                        <div class="city-item">
+                            <span class="city-name">Delhi-NCR</span>
+                            <span class="city-percent">25%</span>
+                        </div>
+                        <div class="city-item">
+                            <span class="city-name">Mumbai</span>
+                            <span class="city-percent">22%</span>
+                        </div>
+                        <div class="city-item">
+                            <span class="city-name">Pune</span>
+                            <span class="city-percent">12%</span>
+                        </div>
+                        <div class="city-item">
+                            <span class="city-name">Hyderabad</span>
+                            <span class="city-percent">13%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Interface -->
+    <section id="chatbot" class="chatbot-section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">AI Job Matching Assistant</h2>
+                <p class="section__description">
+                    Tell our AI what you're looking for and get personalized, inclusive job matches
+                </p>
+            </div>
+            <div class="chatbot-container">
+                <div class="chatbot-interface">
+                    <div class="chat-header">
+                        <div class="chat-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="chat-info">
+                            <h4>AI Job Assistant</h4>
+                            <p>Online • Ready to help</p>
+                        </div>
+                    </div>
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message message--bot">
+                            <div class="message__content">
+                                Hello! I'm here to help you find PM Internship opportunities. I can match you with government internships based on your skills. What role are you interested in? Try asking about full stack, data science, frontend, backend, mobile development, or any other tech role!
+                            </div>
+                            <div class="message__time">Just now</div>
+                        </div>
+                    </div>
+                    <div class="chat-input-container">
+                        <div class="prompt-suggestions">
+                            <button class="prompt-btn" onclick="sendPrompt('full stack developer')">
+                                Full Stack Developer
+                            </button>
+                            <button class="prompt-btn" onclick="sendPrompt('data science')">
+                                Data Science
+                            </button>
+                            <button class="prompt-btn" onclick="sendPrompt('frontend developer')">
+                                Frontend Developer
+                            </button>
+                            <button class="prompt-btn" onclick="sendPrompt('backend developer')">
+                                Backend Developer
+                            </button>
+                        </div>
+                        <div class="chat-input">
+                            <input type="text" id="chatInput" placeholder="Type your job preferences here..." />
+                            <button class="chat-send-btn" onclick="sendMessage()">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Results Section -->
+    <section id="job-results" class="job-results">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">PM Internship Opportunities</h2>
+                <p class="section__description">
+                    Government internships curated by AI with diversity and inclusion in mind
+                </p>
+            </div>
+            <div class="jobs-grid" id="jobsGrid">
+                <!-- Jobs will be populated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section id="success-stories" class="success-stories">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Success Stories</h2>
+                <p class="section__description">
+                    Real stories from diverse professionals who found their perfect match
+                </p>
+            </div>
+            <div class="stories-grid">
+                <div class="story-card">
+                    <div class="story-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="story-content">
+                        <h4>Priya Sharma</h4>
+                        <p class="story-role">Senior Analyst at HDFC Bank</p>
+                        <p class="story-background">Career returner after 3-year break</p>
+                        <blockquote>
+                            "AI matched my transferable skills despite the career gap. The system understood my potential beyond traditional metrics."
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="story-content">
+                        <h4>Arjun with Visual Impairment</h4>
+                        <p class="story-role">Software Developer at Microsoft</p>
+                        <p class="story-background">Person with disability</p>
+                        <blockquote>
+                            "Found perfect role with full accessibility support. The AI specifically matched me with inclusive companies."
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="story-content">
+                        <h4>Alex (They/Them)</h4>
+                        <p class="story-role">Marketing Manager at Google</p>
+                        <p class="story-background">LGBTQIA+ professional</p>
+                        <blockquote>
+                            "Matched with truly inclusive workplace culture. The AI understood the importance of belonging."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Companies -->
+    <section id="partners" class="partners">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Diversity-Committed Partners</h2>
+                <p class="section__description">
+                    Companies leading the way in inclusive hiring practices
+                </p>
+            </div>
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <div class="partner-logo">TCS</div>
+                    <h4>Tata Consultancy Services</h4>
+                    <div class="partner-rating">
+                        <span class="rating-score">4.8/5</span>
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="partner-initiatives">
+                        <span class="initiative-tag">Women Leadership</span>
+                        <span class="initiative-tag">PWD Employment</span>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">INFY</div>
+                    <h4>Infosys</h4>
+                    <div class="partner-rating">
+                        <span class="rating-score">4.7/5</span>
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="partner-initiatives">
+                        <span class="initiative-tag">Return to Work</span>
+                        <span class="initiative-tag">LGBTQIA+ Support</span>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">WIPRO</div>
+                    <h4>Wipro</h4>
+                    <div class="partner-rating">
+                        <span class="rating-score">4.6/5</span>
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="partner-initiatives">
+                        <span class="initiative-tag">Accessibility Centers</span>
+                        <span class="initiative-tag">Bias Training</span>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">MSFT</div>
+                    <h4>Microsoft India</h4>
+                    <div class="partner-rating">
+                        <span class="rating-score">4.9/5</span>
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="partner-initiatives">
+                        <span class="initiative-tag">Inclusive Hiring</span>
+                        <span class="initiative-tag">Diverse Suppliers</span>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">GOOG</div>
+                    <h4>Google India</h4>
+                    <div class="partner-rating">
+                        <span class="rating-score">4.8/5</span>
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="partner-initiatives">
+                        <span class="initiative-tag">Bold Internship</span>
+                        <span class="initiative-tag">Accessibility Innovation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Find Your Perfect Match?</h2>
+                <p>Join thousands of diverse professionals who found meaningful careers through our AI-powered platform</p>
+                <button class="btn btn--primary btn--lg" onclick="scrollToSection('chatbot')">
+                    <i class="fas fa-robot"></i> Start AI Job Matching
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <div class="logo__emblem">🇮🇳</div>
+                        <div>
+                            <h4>PM Internship Portal</h4>
+                            <p>AI Job Matching</p>
+                        </div>
+                    </div>
+                    <p>Empowering diverse talent with intelligent, bias-free job matching technology.</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Features</h4>
+                    <ul>
+                        <li><a href="#overview">AI Overview</a></li>
+                        <li><a href="#diversity">Diversity Stats</a></li>
+                        <li><a href="#chatbot">Job Matching</a></li>
+                        <li><a href="#success-stories">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Diversity Focus</h4>
+                    <ul>
+                        <li>Women Empowerment</li>
+                        <li>PWD Inclusion</li>
+                        <li>LGBTQIA+ Support</li>
+                        <li>Career Returners</li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> ai-jobs@pminternship.gov.in</li>
+                        <li><i class="fas fa-phone"></i> 1800-AI-JOBS</li>
+                        <li><i class="fas fa-map-marker-alt"></i> New Delhi, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Government of India. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
